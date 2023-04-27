@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maine-section {
+    background-color: rgb(243, 243, 243);
+    padding: 20px 80px;
+    width: 100%;
+    max-height: 120vh;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+
+.home-page {
+    /* background-color: rgb(232, 232, 232); */
+    border-radius: 20px;
+    height: 100vh;
+
+    background: rgb(212,212,212);
+background: -moz-linear-gradient(301deg, rgba(212,212,212,1) 0%, rgba(141,221,143,1) 49%, rgba(228,209,213,1) 100%);
+background: -webkit-linear-gradient(301deg, rgba(212,212,212,1) 0%, rgba(141,221,143,1) 49%, rgba(228,209,213,1) 100%);
+background: linear-gradient(301deg, rgba(212,212,212,1) 0%, rgba(141,221,143,1) 49%, rgba(228,209,213,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d4d4d4",endColorstr="#e4d1d5",GradientType=1);
+
+}
+
+.logo h2 {
+
+
+    font-size: 18px;
+
+}
+
+.mainbar p {
+
+    margin: 0px 20px;
+}
+
+.mainbar a {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-weight: 500;
+
+}
+
+
+.login-section button {
+
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 20px;
+
+
+
+
+}
+
+.login-section button:first-child {
+
+    border: none;
+
+}
+
+.login-section p {
+
+    padding-top: 6px;
+    font-size: 15px;
+    font-weight: 500;
+
+
+}
+
+.hero-section {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+
+
+}
+
+.hero-section h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+
+
+}
+
+.hero-section p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-style:italic; */
+    text-align: center;
+    margin-top: 10px;
+
+
+
+}
+
+.hero-section button {
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.black-circle1 {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: black;
+}
+
+.black-circle1 {
+    position: absolute;
+    left: -30px;
+    top: 460px;
+
+}
+
+.black-circle2 {
+
+    width: 350px;
+    height: 350px;
+    border-radius: 300px;
+    background-color: black;
+}
+
+.black-circle2 {
+    position: absolute;
+    bottom: -150px;
+    left: 500px;
+
+}
+
+.black-circle3 {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: black;
+}
+
+.black-circle3 {
+    position: absolute;
+    top: 430px;
+    right: -30px;
+
+}
+
+              /* .discountcard section  */
+
+.discountcard hr {
+    border: 1px solid black;
+}
+
+.discountcard p {
+    font-size: 15px;
+}
+
+.discountcard {
+    border: 1px solid rgb(177, 177, 177);
+    background-color: rgba(219, 216, 216, 0.998);
+    width: 200px;
+    height: 220px;
+    display: flex;
+
+    flex-direction: column;
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    transform: rotate(30deg);
+}
+
+.discountcard h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.discountcard:hover {
+    transition: all ease-in-out 0.3s;
+    transform-origin: 210%;
+    margin-left: 40px;
+}
+
+/* .discountcard 2 */
+
+
+
+.discountcard2 hr {
+    border: 1px solid black;
+}
+
+.discountcard2 p {
+    font-size: 15px;
+}
+
+.discountcard2 {
+    border: 1px solid rgb(177, 177, 177);
+    background-color: rgba(219, 216, 216, 0.998);
+    width: 200px;
+    height: 220px;
+    display: flex;
+
+    flex-direction: column;
+    position: absolute;
+    transform: rotate(10deg);
+    bottom: 0px;
+    left: 520px;
+}
+
+.discountcard2 h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.discountcard2:hover {
+    transition: all ease-in-out 0.3s;
+    transform-origin: 270%;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    
+}
+
+                       /* .discountcard card 3  */
+
+.discountcard3 hr {
+    border: 1px solid black;
+}
+
+.discountcard3 p {
+    font-size: 15px;
+}
+
+.discountcard3 {
+    border: 1px solid rgb(177, 177, 177);
+    background-color: rgba(219, 216, 216, 0.998);
+    width: 200px;
+    height: 220px;
+    display: flex;
+
+    flex-direction: column;
+    position: absolute;
+    top: 480px;
+    right: 20px;
+    transform: rotate(330deg);
+    
+}
+
+.discountcard3 h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.discountcard3:hover {
+    transition: all ease-in-out 0.3s;
+    transform-origin: -120%;
+    margin-right: 50px;
+    
+}
+
+
+
+/* creditcard section  */
+
+.creditcard1 {
+
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+    background: rgb(245, 255, 6);
+    background: -moz-linear-gradient(160deg, rgba(245, 255, 6, 1) 1%, rgba(221, 102, 66, 1) 44%, rgba(245, 255, 6, 1) 95%);
+    background: -webkit-linear-gradient(160deg, rgba(245, 255, 6, 1) 1%, rgba(221, 102, 66, 1) 44%, rgba(245, 255, 6, 1) 95%);
+    background: linear-gradient(160deg, rgba(245, 255, 6, 1) 1%, rgba(221, 102, 66, 1) 44%, rgba(245, 255, 6, 1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5ff06", endColorstr="#f5ff06", GradientType=1);
+}
+
+
+.creditcard1 {
+    position: absolute;
+    left: -60px;
+    top: 530px;
+    transform: rotate(30deg);
+
+
+}
+
+
+
+
+.creditcard1 img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.creditcard1 p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 100px;
+    margin-top: 60px;
+
+
+}
+
+
+
+/* .creditcard2 { */
+
+
+.creditcard2 {
+
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    background: rgb(73, 110, 209);
+    background: -moz-linear-gradient(160deg, rgba(73, 110, 209, 1) 1%, rgba(244, 109, 241, 1) 50%, rgba(245, 255, 6, 1) 95%);
+    background: -webkit-linear-gradient(160deg, rgba(73, 110, 209, 1) 1%, rgba(244, 109, 241, 1) 50%, rgba(245, 255, 6, 1) 95%);
+    background: linear-gradient(160deg, rgba(73, 110, 209, 1) 1%, rgba(244, 109, 241, 1) 50%, rgba(245, 255, 6, 1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#496ed1", endColorstr="#f5ff06", GradientType=1);
+
+}
+
+
+.creditcard2 {
+    position: absolute;
+    transform: rotate(10deg);
+    bottom: -10px;
+    left: 430px;
+
+
+
+}
+
+.creditcard2 img {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.creditcard2 p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 100px;
+    margin-top: 80px;
+
+
+}
+
+
+               /* creditcard  3 */
+
+
+.creditcard3 {
+
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+    background: rgb(240,144,9);
+background: -moz-linear-gradient(160deg, rgba(240,144,9,1) 0%, rgba(236,236,236,1) 50%, rgba(6,255,39,1) 95%);
+background: -webkit-linear-gradient(160deg, rgba(240,144,9,1) 0%, rgba(236,236,236,1) 50%, rgba(6,255,39,1) 95%);
+background: linear-gradient(160deg, rgba(240,144,9,1) 0%, rgba(236,236,236,1) 50%, rgba(6,255,39,1) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f09009",endColorstr="#06ff27",GradientType=1);
+    
+}
+
+
+.creditcard3 {
+    position: absolute;
+    top: 500px;
+    right: -50px;
+    transform: rotate(-30deg);
+
+
+}
+
+.creditcard3 img {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.creditcard3 p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-right: 80px;
+    margin-top: 100px;
+
+
+}
